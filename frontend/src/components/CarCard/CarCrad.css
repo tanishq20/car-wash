@@ -1,0 +1,33 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border: 2px solid black;
+  margin: 2rem 0;
+}
+
+.card-img {
+  max-width: 40vw;
+  max-height: 40vh;
+}
+
+.card-body {
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid black;
+}
+
+.card-action {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-action-btns {
+  display: flex;
+  gap: 10px;
+}
